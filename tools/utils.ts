@@ -3,8 +3,8 @@ import { Language } from "./i18n";
 import * as prettier from 'prettier';
 
 const languageFilePaths: Record<Language, string> = {
-    [Language.en_EN]: '../README.md',
-    [Language.zh_CN]: '../README-zh_CN.md',
+    [Language.en_EN]: '../book/The_Concise_TypeScript_Book_en.md',
+    [Language.zh_CN]: '../book/The_Concise_TypeScript_Book_zh-CN.md',
     [Language.it_IT]: '../README-it_IT.md',
     [Language.pt_BR]: '../README-pt_BR.md',
     [Language.sv_SE]: '../README-sv_SE.md',

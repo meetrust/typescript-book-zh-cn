@@ -15,10 +15,10 @@ from typing import Dict, List, Match
 # INPUT_FILE_PATH_CN = "./test-md/README-zh_CN.md"
 # OUTPUT_DIR_PATH_CN = "./test-md/zh-cn"
 
-INPUT_FILE_PATH = "../README.md"
+INPUT_FILE_PATH = "../book/The_Concise_TypeScript_Book_en.md"
 OUTPUT_DIR_PATH = "../website/src/content/docs/book"
 
-INPUT_FILE_PATH_CN = "../README-zh_CN.md"
+INPUT_FILE_PATH_CN = "../book/The_Concise_TypeScript_Book_zh-CN.md"
 OUTPUT_DIR_PATH_CN = "../website/src/content/docs/zh-cn/book"
 
 INPUT_FILE_PATH_IT = "../README-it_IT.md"
