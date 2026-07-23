@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="380" viewBox="0 0 1200 380"
+     role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">The Concise TypeScript Book 简体中文学习与阅读仓库</title>
+  <desc id="hero-desc">深色技术出版物风格的标题与打开的书页，书页展示书稿中的联合类型和泛型示例，并标明 PDF、中文 Markdown 与英文原稿三种阅读方式。</desc>
+
+  <g id="background">
+    <rect width="1200" height="380" rx="24" fill="#0D1117"/>
+    <path d="M0 322H1200" stroke="#21262D" stroke-width="2"/>
+  </g>
+
+  <g id="title-block" transform="translate(64 48)">
+    <text x="0" y="18" fill="#5AA9E6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2">TECHNICAL BOOK · SIMPLIFIED CHINESE</text>
+    <text x="0" y="90" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" letter-spacing="1">THE CONCISE</text>
+    <text x="0" y="154" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="64" font-weight="800" letter-spacing="-1">TYPESCRIPT BOOK</text>
+    <text x="0" y="204" fill="#5AA9E6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700">简体中文学习与阅读仓库</text>
+  </g>
+
+  <g id="reading-formats" transform="translate(64 286)">
+    <text x="0" y="0" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="600">修订 PDF · 中文 Markdown · 英文原稿</text>
+    <text x="0" y="40" fill="#8C959F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20">非官方个人学习 Fork</text>
+  </g>
+
+  <g id="book-proof" transform="translate(764 42)">
+    <path d="M16 48Q100 18 184 54L184 290Q98 250 16 272Z" fill="#3178C6" opacity="0.38"/>
+    <path d="M184 54Q270 18 374 48L374 272Q278 250 184 290Z" fill="#3178C6" opacity="0.56"/>
+    <path d="M4 34Q94 10 184 50L184 276Q98 236 4 258Z" fill="#F0F6FC"/>
+    <path d="M184 50Q276 10 386 34L386 258Q280 236 184 276Z" fill="#E6EDF3"/>
+    <path d="M184 50V276" stroke="#8C959F" stroke-width="2"/>
+
+    <g id="union-type-example" transform="translate(24 68)">
+      <text x="0" y="0" fill="#3178C6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700">UNION TYPE</text>
+      <text x="0" y="44" fill="#0D1117" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">let x: string |</text>
+      <text x="0" y="70" fill="#0D1117" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">number;</text>
+      <text x="0" y="112" fill="#57606A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">x = 'hello';</text>
+      <text x="0" y="140" fill="#57606A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">x = 123;</text>
+    </g>
+
+    <g id="generic-example" transform="translate(208 68)">
+      <text x="0" y="0" fill="#3178C6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700">GENERIC &lt;T&gt;</text>
+      <text x="0" y="44" fill="#0D1117" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">function</text>
+      <text x="0" y="70" fill="#0D1117" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">identity&lt;T&gt;</text>
+      <text x="0" y="96" fill="#0D1117" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">(arg: T): T {</text>
+      <text x="0" y="124" fill="#57606A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18"> return arg;</text>
+      <text x="0" y="152" fill="#0D1117" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">}</text>
+    </g>
+
+    <g id="typescript-mark" transform="translate(314 218)">
+      <rect width="52" height="38" rx="7" fill="#3178C6"/>
+      <text x="12" y="28" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="800">TS</text>
+    </g>
+  </g>
+
+  <g id="metadata" transform="translate(764 346)">
+    <circle cx="5" cy="-5" r="5" fill="#3178C6"/>
+    <text x="22" y="0" fill="#8C959F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">122 PAGES · PDF + MARKDOWN</text>
+  </g>
+</svg>

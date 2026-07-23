@@ -1,36 +1,39 @@
-# The Concise TypeScript Book 中文学习仓库
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="The Concise TypeScript Book 简体中文学习与阅读仓库，提供修订 PDF、中文 Markdown 与英文原稿">
+</p>
 
-本仓库 Fork 自 [gibbok/typescript-book](https://github.com/gibbok/typescript-book)，是一个非官方的个人学习与资料整理 Fork。
+本仓库是 [gibbok/typescript-book](https://github.com/gibbok/typescript-book) 的非官方个人学习 Fork，提供经少量文字与排版修订的简体中文 PDF，以及可搜索、可引用的中英文 Markdown 书稿。
 
-本仓库主要提供根据修订后的简体中文内容重新生成的 PDF。推荐通过 PDF 阅读完整内容；需要搜索、引用或比较文本时，也可以查看 Markdown 书稿。
+<p align="center">
+  <strong><a href="downloads/The_Concise_TypeScript_Book_zh-CN.pdf">下载《The Concise TypeScript Book》简体中文 PDF（122 页）</a></strong>
+</p>
 
-## 下载 PDF
+<p align="center">
+  <a href="downloads/The_Concise_TypeScript_Book_zh-CN.pdf">
+    <img src="./assets/readme/pdf-cover.png" width="320" alt="《The Concise TypeScript Book》简体中文版 PDF 第 1 页封面">
+  </a>
+</p>
 
-[下载《The Concise TypeScript Book》简体中文 PDF](downloads/The_Concise_TypeScript_Book_zh-CN.pdf)
+<p align="center">
+  <sub>封面为 122 页简体中文 PDF 的第 1 页；点击即可下载。</sub>
+</p>
 
-该 PDF 是本 Fork 根据修订后的简体中文内容重新生成的版本，并非上游作者发布的官方中文版本。内容仍可能存在遗漏或错误。
+## 阅读入口
+
+* [下载简体中文 PDF](downloads/The_Concise_TypeScript_Book_zh-CN.pdf) — 适合离线、连续阅读。
+* [简体中文 Markdown 书稿](book/The_Concise_TypeScript_Book_zh-CN.md) — 适合搜索和引用。
+* [英文 Markdown 书稿](book/The_Concise_TypeScript_Book_en.md) — 适合中英文对照。
+* [其他下载文件](downloads/) — 查看仓库中的其他格式和语言版本。
 
 ## 关于本 Fork
 
 本 Fork 主要用于个人学习和资料整理，修复了简体中文版本中的少量文字和排版问题。
 
+* 简体中文 PDF 根据修订后的内容重新生成，并非上游作者发布的官方中文版本；内容仍可能存在遗漏或错误。
 * 修订过程使用了 ChatGPT Work 辅助校对和整理。
 * ChatGPT Work 不是本书的作者、译者或版权所有者。
 * 相关修改未经原作者审核、认可或背书。
-* 如对内容有疑问，应以上游仓库为准。
-
-## 仓库内容
-
-* [简体中文 PDF](downloads/The_Concise_TypeScript_Book_zh-CN.pdf)
-* [简体中文 Markdown 书稿](book/The_Concise_TypeScript_Book_zh-CN.md)
-* [英文 Markdown 书稿](book/The_Concise_TypeScript_Book_en.md)
-* [其他下载文件](downloads/)
-
-## 阅读方式
-
-1. 推荐下载简体中文 PDF 阅读。
-2. 需要搜索、引用或比较文本时，可以查看 Markdown 书稿。
-3. 获取权威内容和最新更新时，应访问上游仓库。
+* 如对内容有疑问，或需要获取权威内容和最新更新，应以上游仓库为准。
 
 ## 上游项目
 
